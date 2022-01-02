@@ -2,5 +2,5 @@
 
 PATH="${PATH:+${PATH}:}~/PyPSUcurvetrace"
 
-curveplot ../rawdata/curvedata/* --pairs --maxdeltaUc 0.03 --nodisplay --savepdf
+curveplot ../rawdata/curvedata/* --pairs --maxdeltaUc 0.03 --nodisplay --savepdf --xlabel 'Drain-Source Voltage' --ylabel 'Drain Current' --ylimit 3.5 --xlimit 3.0 --fontname Arial
 
