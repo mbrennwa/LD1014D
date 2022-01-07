@@ -21,15 +21,15 @@ data = label = Uc = tuple( )
 
 for i in range(len(datafiles)):
 	d, l, p = read_datafile(datafiles[i])
-	print(l + ': Uc = ' + str(p.Uc))
+	print(l + ': Vgs = ' + str(p.Uc))
 	data  += (d,)
 	label += (l,)
 	Uc    += (p.Uc,)
 
 m = np.mean(Uc)
 s = np.std(Uc)
-print('Mean Uc = ' + str(m) + ' V')
-print('StdDev Uc = ' + str(s) + ' V')
-print('RSD = ' + str(np.abs(s/m*100)) + ' %')
+print('Mean Vgs = ' + str(m) + ' V')
+print('StdDev Vgs = ' + str(s) + ' V')
+print('RSD Vgs = ' + str(np.abs(s/m*100)) + ' %')
 
 

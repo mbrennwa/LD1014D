@@ -2,5 +2,5 @@
 
 PATH="${PATH:+${PATH}:}~/PyPSUcurvetrace"
 
-extractpreheat rawdata/curvedata/*.dat
+extractpreheat rawdata/*.dat
 
