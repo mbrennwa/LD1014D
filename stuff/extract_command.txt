@@ -1,1 +1,0 @@
-grep -w 'Sample\|PREHEAT' LD1014D_*.dat

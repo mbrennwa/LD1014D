@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-PATH="${PATH:+${PATH}:}~/PyPSUcurvetrace"
-
-curveplot ../rawdata/LD1014D_{200..999}.dat --pairs --maxdeltaUc 0.03 --nodisplay --savepdf --xlabel 'Drain-Source Voltage' --ylabel 'Drain Current' --ylimit 3.5 --xlimit 3.0 --fontname Arial
-

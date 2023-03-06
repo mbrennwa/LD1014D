@@ -1,9 +1,0 @@
-Tutorial plots
-
-Gate bias offset: 403,434, Vgs-delta = 19 mV
-
-Gain offset: 407,410, Vgs-delta = 24 mV
-
-r_out offset: 280,334, Vgs-delta = 0 mV
-
-overall match: 368,446, Vgs-delta = 0 mV
